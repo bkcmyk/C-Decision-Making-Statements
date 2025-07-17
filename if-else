@@ -1,20 +1,16 @@
+// Name: Barkha Kumari
+// PRN: 24070123029
+//Batch: EnTc A1
+
+Code:
+
+
 
 #include <iostream>
 using namespace std;
 
 int main(){
-    int choice;
-    cout<<"Menu"<<endl;
-    cout<<"1. Even or odd"<<endl<<"2. Vowel or Consonant"<<endl<<
-           "3. Largest number among 3"<<endl;
-    cout<<"Enter choice"<<endl;
-    cin>>choice;
-
-    switch(choice){
-
-    case 1:
-    
-    int n;
+       int n;
     cout<<"Enter a Number: ";
     cin>>n;
 
@@ -24,9 +20,9 @@ int main(){
     else{
         cout<<"The number "<<n<<" is Odd"<<endl;
     }
-    break;
 
-case 2:
+    cout<<endl;
+  
 char c;
 cout<<"Enter a Character: "<<endl;
 cin>>c;
@@ -38,9 +34,10 @@ if(c=='A' || c=='E' || c=='I' || c=='O' || c=='U' || c=='a' || c=='e' || c=='i' 
 else{
 cout<<"The Character entered "<<c<<" is a Consonant."<<endl;
 }
-break;
 
-case 3:
+
+cout<<endl;
+
 int x,y,z;
 cout<<"Enter First Number: "<<endl;
 cin>>x;
@@ -69,13 +66,27 @@ else if(z>y){
         cout<<"The largest Number is: "<<z<<endl;
         else
         cout<<"The largest Number is: "<<x<<endl;
-        break;
-default: 
-cout<<"Invalid Choice entered";
-        return 0;
+     
 
-}}
 }
+}
+
+
+/* Output
+ Enter a Number: 8
+The number 8 is Even
+
+Enter a Character:
+N
+The Character entered N is a Consonant.
+
+Enter First Number:
+78
+Enter Second Number: 
+85
+Enter Third Number: 
+36
+The largest Number is: 85
 
 
 
