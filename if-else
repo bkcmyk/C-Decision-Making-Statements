@@ -1,0 +1,86 @@
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int choice;
+    cout<<"Menu"<<endl;
+    cout<<"1. Even or odd"<<endl<<"2. Vowel or Consonant"<<endl<<
+           "3. Largest number among 3"<<endl;
+    cout<<"Enter choice"<<endl;
+    cin>>choice;
+
+    switch(choice){
+
+    case 1:
+    
+    int n;
+    cout<<"Enter a Number: ";
+    cin>>n;
+
+    if(n%2==0){
+        cout<<"The number "<<n<<" is Even"<<endl;}
+
+    else{
+        cout<<"The number "<<n<<" is Odd"<<endl;
+    }
+    break;
+
+case 2:
+char c;
+cout<<"Enter a Character: "<<endl;
+cin>>c;
+
+if(c=='A' || c=='E' || c=='I' || c=='O' || c=='U' || c=='a' || c=='e' || c=='i' || c=='o' || c=='u'){
+    cout<<"The Character entered "<<c<<" is a Vowel."<<endl;
+}
+
+else{
+cout<<"The Character entered "<<c<<" is a Consonant."<<endl;
+}
+break;
+
+case 3:
+int x,y,z;
+cout<<"Enter First Number: "<<endl;
+cin>>x;
+
+cout<<"Enter Second Number: "<<endl;
+cin>>y;
+cout<<"Enter Third Number: "<<endl;
+cin>>z;
+
+if(x>y){
+    if(x>z)
+        cout<<"The largest Number is: "<<x<<endl;
+        else
+        cout<<"The largest Number is: "<<z<<endl;
+}
+
+else if(y>z){
+    if(y>x)
+        cout<<"The largest Number is: "<<y<<endl;
+        else
+        cout<<"The largest Number is: "<<x<<endl;
+}
+
+else if(z>y){
+    if(z>x)
+        cout<<"The largest Number is: "<<z<<endl;
+        else
+        cout<<"The largest Number is: "<<x<<endl;
+        break;
+default: 
+cout<<"Invalid Choice entered";
+        return 0;
+
+}}
+}
+
+
+
+
+
+
+
+
