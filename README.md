@@ -19,6 +19,9 @@ Prints the number which is greater than the other two.
 
 Key Concepts Used:
 Conditional Statements (if, else, else if)
+
 Relational Operators (>, %, ==)
+
 Logical Operators (||)
+
 Standard Input/Output using cin and cout
