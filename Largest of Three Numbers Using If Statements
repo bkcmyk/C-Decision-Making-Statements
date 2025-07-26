@@ -1,0 +1,37 @@
+// Name: Barkha Kumari
+// PRN: 24070123029
+// Batch: EnTc A1
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x, y, z;
+    cout << "Enter First Number: ";
+    cin >> x;
+
+    cout << "Enter Second Number: ";
+    cin >> y;
+
+    cout << "Enter Third Number: ";
+    cin >> z;
+
+    int largest = x;
+
+    if (y > largest) {
+        largest = y;
+    }
+
+    if (z > largest) {
+        largest = z;
+    }
+
+    cout << "The largest Number is: " << largest << endl;
+
+    return 0;
+}
+/* OUTPUT
+Enter First Number: 7
+Enter Second Number: 6
+Enter Third Number: 10
+The largest Number is: 10*/
