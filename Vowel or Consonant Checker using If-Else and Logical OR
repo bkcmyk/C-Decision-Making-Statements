@@ -1,0 +1,32 @@
+// Name: Barkha Kumari
+// PRN: 24070123029
+// Batch: EnTc A1
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    char c;
+    cout << "Enter a Character: ";
+    cin >> c;
+
+    if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z')) {
+        // Now check if it is a vowel
+        if (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ||
+            c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+            cout << "The Character entered " << c << " is a Vowel." << endl;
+        } else {
+            cout << "The Character entered " << c << " is a Consonant." << endl;
+        }
+    } else {
+        cout << "Invalid input. Please enter an alphabet character." << endl;
+    }
+
+    return 0;
+}
+
+/*
+OUTPUT
+Enter a Character: C
+The Character entered C is a Consonant.
+*/
